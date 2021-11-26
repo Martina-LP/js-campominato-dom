@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Campo Minato</title>
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="wrapper">
+    <header>
+      <div class="row_start">
+        <img src="img/logo.png" alt="Boolean Logo">
+        <h1>Campo Minato: la Griglia</h1>
+      </div>
+      <div class="row_end">
+        <span>Difficoltà:</span>
+        <select name="levels" id="levels">
+          <optgroup label="Options">
+            <option value="1">Principiante</option>
+            <option value="2">Intermedio</option>
+            <option value="3">Avanzato</option>
+          </optgroup>
+        </select>
+          <button type="button" id="play">Play</button>
+      </div>
+    </header>
+
+    <main>
+      <h2 id="text" class="hidden">Seleziona il livello di difficoltà e genera la griglia</h2>
+      <div id="grid" class="main-grid hidden">
+        <!-- Single cell -->
+        <!-- <div class="cells selected">
+            <span>1</span>
+        </div> -->
+    </div>
+
+      <h2 id="final-message" class="hidden"></h2>
+    </main>
+
+    <footer>
+      <h3>Made with &#10084; by <a href="#">Martina</a></h3>
+    </footer>
+  </div>
+
+  <script type="text/javascript" src="js/script.js"></script>
+  
+</body>
+</html>
